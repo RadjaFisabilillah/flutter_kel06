@@ -11,7 +11,7 @@ class ProfilePage extends StatefulWidget {
 
 class _ProfilePageState extends State<ProfilePage> {
   final List<Map<String, String>> teamMembers = [
-    {'Nama': 'Sanggul Rotua Pakpahan', 'NIM': '21120122120018'},
+    {'Nama': 'Radja Fisabilillah', 'NIM': '21120123130102'},
   ];
 
   @override
@@ -19,7 +19,7 @@ class _ProfilePageState extends State<ProfilePage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Profile'),
-        backgroundColor: const Color.fromARGB(255, 13, 105, 225),
+        backgroundColor: const Color.fromARGB(255, 13, 225, 137),
         actions: [
           IconButton(icon: const Icon(Icons.home), onPressed: widget.onHomeTap),
         ],
@@ -37,7 +37,7 @@ class _ProfilePageState extends State<ProfilePage> {
                     fit: BoxFit.cover,
                     alignment: Alignment.topCenter,
                     image: NetworkImage(
-                      'https://cdn.myanimelist.net/s/common/uploaded_files/1444014275-106dee95104209bb9436d6df2b6d5145.jpeg',
+                      'https://monsterjournal.com/wp-content/uploads/2023/10/Thugposting-1.png',
                     ),
                   ),
 
@@ -63,7 +63,7 @@ class _ProfilePageState extends State<ProfilePage> {
                     image: DecorationImage(
                       fit: BoxFit.cover,
                       image: NetworkImage(
-                        'https://avatars.githubusercontent.com/SanggulRotuaPakpahan',
+                        'https://i.redd.it/bagi-bagi-meme-jomok-kalian-dong-gan-v0-0hr6alhenjgc1.jpg?width=250&format=pjpg&auto=webp&s=91e92487f3a13866f805ae3c030b36728e379c91',
                       ),
                     ),
                   ),
